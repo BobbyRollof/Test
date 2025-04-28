@@ -1,0 +1,31 @@
+Summary,Description,Issue Type,Priority,Epic Link
+Setup AWS Accounts/Projects,"Separate Dev, Staging, Production environments",Task,Must Have,Infrastructure Setup
+Setup S3 Buckets (Frontend Hosting + Terraform State),"Private buckets, enable versioning",Task,Must Have,Infrastructure Setup
+Create Terraform Mono-Repo (or Infra-Repo),"Structure modules: networking, compute, database, secrets",Task,Must Have,Infrastructure Setup
+"Provision Core Services (ECS Cluster, RDS, Redis)","Minimal, cost-efficient setup",Task,Must Have,Infrastructure Setup
+Setup DNS and SSL Certificates,Secure endpoint access,Task,Must Have,Infrastructure Setup
+Setup GitHub Actions CI for Terraform,Automate Terraform workflows,Task,Should Have,Infrastructure Setup
+Create Alerting for Budget Thresholds,AWS Budgets and Alerts,Task,Should Have,Infrastructure Setup
+Create Java Spring Boot Project,Base backend project setup,Task,Must Have,Backend Core Services
+Setup JWT Authentication System,Secure login/token system,Task,Must Have,Backend Core Services
+Implement User Registration / Login APIs,Basic auth endpoints,Task,Must Have,Backend Core Services
+Implement Basic Route Management API,CRUD operations for GPX/manual routes,Task,Must Have,Backend Core Services
+Implement Live Tracking Service,Accept GPS updates from users,Task,Must Have,Backend Core Services
+Integrate PostGIS for Spatial Queries,Spatial DB support,Task,Must Have,Backend Core Services
+Setup Basic Healthcheck Endpoints,Health monitoring,Task,Must Have,Backend Core Services
+CI/CD Pipeline for Backend,GitHub Actions for backend,Task,Must Have,Backend Core Services
+Create React + TypeScript Project,Frontend setup,Task,Must Have,Frontend Core Application
+Implement User Login and Registration UI,Auth UI connecting to backend,Task,Must Have,Frontend Core Application
+Implement Route Upload and Creation View,GPX file upload and manual map creation,Task,Must Have,Frontend Core Application
+Implement Basic Live Tracking Page,Display user GPS positions,Task,Must Have,Frontend Core Application
+"Setup Prettier/ESLint, Basic Unit Testing (Jest)",Code quality enforcement,Task,Must Have,Frontend Core Application
+Deploy Frontend to S3 + CloudFront,Hosting frontend,Task,Must Have,Frontend Core Application
+Setup CloudWatch Alarms,"Monitor ECS, RDS",Task,Must Have,Observability and Monitoring
+Setup CloudWatch Logs Aggregation,Centralize logs,Task,Must Have,Observability and Monitoring
+Create Terraform Modules for Alerts,Reusable alerting infrastructure,Task,Should Have,Observability and Monitoring
+Plan for Future Datadog Integration,Prepare for central observability,Task,Could Have,Observability and Monitoring
+Secrets in AWS Secrets Manager,Secure secrets storage,Task,Must Have,Security and Privacy Foundations
+Encrypt Data in Transit and at Rest,"TLS everywhere, storage encryption",Task,Must Have,Security and Privacy Foundations
+Implement Basic Rate Limiting for APIs,Prevent abuse,Task,Should Have,Security and Privacy Foundations
+Enforce HTTPS-only Access,Secure access paths,Task,Must Have,Security and Privacy Foundations
+Write MVP-Level Privacy Policy,User data protection statement,Task,Should Have,Security and Privacy Foundations
